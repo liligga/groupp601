@@ -24,5 +24,6 @@ print(car_subaru)
 print(car_honda.color)
 print(car_subaru.color)
 print(car_honda.model == car_subaru.model)
+
 print(type(123), type("aaaaaaaa"))
 print(type(car_subaru))
