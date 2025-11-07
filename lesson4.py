@@ -23,10 +23,12 @@ class Car:
 
     @property
     def fined(self):
+        # геттер работающий как атрибут
         return self.__fined
 
     @fined.setter
     def fined(self, val):
+        # сеттер работающий как атрибут
         if type(val) != bool:
             raise TypeError("fined must be a boolean")
         self.__fined = val
